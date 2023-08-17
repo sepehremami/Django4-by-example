@@ -1,4 +1,4 @@
-#!/home/nolimax/workspace/django-by-example/venv/bin/python
+#!/home/nolimax/github-proj/Django4-by-example/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

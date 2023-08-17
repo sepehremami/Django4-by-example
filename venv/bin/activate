@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/nolimax/workspace/django-by-example/venv"
+VIRTUAL_ENV="/home/nolimax/github-proj/Django4-by-example/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
