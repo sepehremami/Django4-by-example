@@ -19,14 +19,23 @@ from django.urls import path, include
 from django.contrib.sitemaps.views import sitemap
 from blog.sitemaps import PostSitemap
 
+# import guppy
+# from guppy.heapy import Remote
+# Remote.on()
+
 
 sitemaps = {
-    'posts': PostSitemap,
+    "posts": PostSitemap,
 }
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("blog/", include("blog.urls", namespace="blogs")),
-    path("sitemap.xml", sitemap, {'sitemaps': sitemaps}, name="django.contrib.sitemaps.views.sitemap"),
-
+    path(
+        "sitemap.xml",
+        sitemap,
+        {"sitemaps": sitemaps},
+        name="django.contrib.sitemaps.views.sitemap",
+    ),
+    # path('appointment/', include('appointment.urls')),
 ]
