@@ -25,4 +25,4 @@ hi everyone! this code repository is the exact copy of the codes found in chapte
 
 do the instructions in order they are presented to you and you must be good to do! 
 >> Note: be careful to set the right environment variables in settings.py before running the project.
-once you did all the instructions (access the blog from here)[http://127.0.0.1:8000/blog/]
+once you did all he instructions [access the website from here](http://127.0.0.1:8000/blog/)
