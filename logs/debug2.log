@@ -1,0 +1,129 @@
+INFO 2024-01-30 12:32:50,275 autoreload 77785 130047507801920 Watching for file changes with StatReloader
+INFO 2024-01-30 12:32:51,391 autoreload 77785 130047507801920 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 12:32:51,661 autoreload 77799 123521993004864 Watching for file changes with StatReloader
+INFO 2024-01-30 12:32:54,377 basehttp 77799 123521929840320 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+INFO 2024-01-30 12:32:58,054 basehttp 77799 123521929840320 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+INFO 2024-01-30 12:32:58,494 basehttp 77799 123521929840320 "GET /blog/2023/6/13/who-was-django-reinhart/ HTTP/1.1" 200 3297
+INFO 2024-01-30 12:32:59,236 basehttp 77799 123521929840320 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+INFO 2024-01-30 12:33:06,872 autoreload 77799 123521993004864 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 12:33:07,113 autoreload 77874 137722096666432 Watching for file changes with StatReloader
+WARNING 2024-01-30 12:33:08,880 views 77874 137722033342144 we are in like what are they doing here? detail view
+INFO 2024-01-30 12:33:08,899 basehttp 77874 137722033342144 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 12:33:12,689 views 77874 137722033342144 we are in Who was Django Reinhart? detail view
+INFO 2024-01-30 12:33:12,695 basehttp 77874 137722033342144 "GET /blog/2023/6/13/who-was-django-reinhart/ HTTP/1.1" 200 3297
+WARNING 2024-01-30 12:33:13,285 views 77874 137722033342144 we are in django is great! detail view
+INFO 2024-01-30 12:33:13,290 basehttp 77874 137722033342144 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+INFO 2024-01-30 12:33:38,851 autoreload 77874 137722096666432 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 12:33:39,114 autoreload 77932 126006652106560 Watching for file changes with StatReloader
+WARNING 2024-01-30 12:33:51,233 views 77932 126006589392576 we are in is this the real world detail view
+INFO 2024-01-30 12:33:51,256 basehttp 77932 126006589392576 "GET /blog/2023/6/17/is-this-the-real-world/ HTTP/1.1" 200 3082
+WARNING 2024-01-30 12:33:51,866 views 77932 126006589392576 we are in like what are they doing here? detail view
+INFO 2024-01-30 12:33:51,873 basehttp 77932 126006589392576 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 12:33:52,200 views 77932 126006589392576 we are in django is great! detail view
+INFO 2024-01-30 12:33:52,205 basehttp 77932 126006589392576 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+INFO 2024-01-30 16:08:17,103 autoreload 93818 134484236617536 Watching for file changes with StatReloader
+WARNING 2024-01-30 16:08:18,878 log 93818 134484173260480 Not Found: /
+WARNING 2024-01-30 16:08:18,879 basehttp 93818 134484173260480 "GET / HTTP/1.1" 404 2321
+WARNING 2024-01-30 16:08:21,791 views 93818 134484173260480 surfing the post_list view
+INFO 2024-01-30 16:08:21,810 basehttp 93818 134484173260480 "GET /blog/ HTTP/1.1" 200 4166
+INFO 2024-01-30 17:53:40,085 autoreload 113883 128268747548480 Watching for file changes with StatReloader
+WARNING 2024-01-30 17:53:41,373 log 113883 128268684494528 Not Found: /
+WARNING 2024-01-30 17:53:41,373 basehttp 113883 128268684494528 "GET / HTTP/1.1" 404 2321
+WARNING 2024-01-30 17:53:41,509 log 113883 128268684494528 Not Found: /favicon.ico
+WARNING 2024-01-30 17:53:41,509 basehttp 113883 128268684494528 "GET /favicon.ico HTTP/1.1" 404 2372
+WARNING 2024-01-30 17:53:49,867 log 113883 128268684494528 Not Found: /blgo
+WARNING 2024-01-30 17:53:49,867 basehttp 113883 128268684494528 "GET /blgo HTTP/1.1" 404 2351
+WARNING 2024-01-30 17:53:53,058 views 113883 128268684494528 surfing the post_list view
+INFO 2024-01-30 17:53:53,077 basehttp 113883 128268684494528 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:53:54,590 views 113883 128268684494528 we are in is this the real world detail view
+INFO 2024-01-30 17:53:54,600 basehttp 113883 128268684494528 "GET /blog/2023/6/17/is-this-the-real-world/ HTTP/1.1" 200 3082
+WARNING 2024-01-30 17:53:56,972 views 113883 128268684494528 we are in django is great! detail view
+INFO 2024-01-30 17:53:56,978 basehttp 113883 128268684494528 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+WARNING 2024-01-30 17:53:57,395 views 113883 128268684494528 we are in like what are they doing here? detail view
+INFO 2024-01-30 17:53:57,402 basehttp 113883 128268684494528 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 17:53:57,789 views 113883 128268684494528 we are in is this the real world detail view
+INFO 2024-01-30 17:53:57,794 basehttp 113883 128268684494528 "GET /blog/2023/6/17/is-this-the-real-world/ HTTP/1.1" 200 3082
+WARNING 2024-01-30 17:53:58,389 views 113883 128268684494528 we are in like what are they doing here? detail view
+INFO 2024-01-30 17:53:58,395 basehttp 113883 128268684494528 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 17:53:58,779 views 113883 128268684494528 we are in like what are they doing here? detail view
+INFO 2024-01-30 17:53:58,787 basehttp 113883 128268684494528 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 17:53:59,267 views 113883 128268684494528 we are in django is great! detail view
+INFO 2024-01-30 17:53:59,273 basehttp 113883 128268684494528 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+WARNING 2024-01-30 17:54:07,209 views 113883 128268684494528 we are in is this the real world detail view
+INFO 2024-01-30 17:54:07,215 basehttp 113883 128268684494528 "GET /blog/2023/6/17/is-this-the-real-world/ HTTP/1.1" 200 3082
+WARNING 2024-01-30 17:54:07,610 views 113883 128268684494528 we are in like what are they doing here? detail view
+INFO 2024-01-30 17:54:07,617 basehttp 113883 128268684494528 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 17:54:07,972 views 113883 128268684494528 we are in django is great! detail view
+INFO 2024-01-30 17:54:07,977 basehttp 113883 128268684494528 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+WARNING 2024-01-30 17:54:18,541 views 113883 128268684494528 we are in Who was Django Reinhart? detail view
+INFO 2024-01-30 17:54:18,548 basehttp 113883 128268684494528 "GET /blog/2023/6/13/who-was-django-reinhart/ HTTP/1.1" 200 3297
+WARNING 2024-01-30 17:54:19,742 views 113883 128268684494528 we are in like what are they doing here? detail view
+INFO 2024-01-30 17:54:19,752 basehttp 113883 128268684494528 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 17:54:20,831 views 113883 128268684494528 we are in django is great! detail view
+INFO 2024-01-30 17:54:20,837 basehttp 113883 128268684494528 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+WARNING 2024-01-30 17:54:25,060 views 113883 128268684494528 we are in is this the real world detail view
+INFO 2024-01-30 17:54:25,066 basehttp 113883 128268684494528 "GET /blog/2023/6/17/is-this-the-real-world/ HTTP/1.1" 200 3082
+INFO 2024-01-30 17:56:15,045 autoreload 113883 128268747548480 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 17:56:15,279 autoreload 114368 125954966157120 Watching for file changes with StatReloader
+INFO 2024-01-30 17:56:16,389 autoreload 114368 125954966157120 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 17:56:55,579 autoreload 114653 140399209764672 Watching for file changes with StatReloader
+WARNING 2024-01-30 17:56:57,500 views 114653 140399146436288 we are in django is great! detail view
+INFO 2024-01-30 17:56:57,521 basehttp 114653 140399146436288 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+WARNING 2024-01-30 17:56:58,109 views 114653 140399146436288 we are in is this the real world detail view
+INFO 2024-01-30 17:56:58,115 basehttp 114653 140399146436288 "GET /blog/2023/6/17/is-this-the-real-world/ HTTP/1.1" 200 3082
+WARNING 2024-01-30 17:56:58,581 views 114653 140399146436288 we are in like what are they doing here? detail view
+INFO 2024-01-30 17:56:58,588 basehttp 114653 140399146436288 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 17:57:09,193 views 114653 140399146436288 surfing the post_list view
+INFO 2024-01-30 17:57:09,203 basehttp 114653 140399146436288 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:57:13,857 views 114653 140399146436288 surfing the post_list view
+INFO 2024-01-30 17:57:13,863 basehttp 114653 140399146436288 "GET /blog/?page=2 HTTP/1.1" 200 2597
+INFO 2024-01-30 17:59:02,367 autoreload 114653 140399209764672 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 17:59:02,649 autoreload 115049 132196543842112 Watching for file changes with StatReloader
+WARNING 2024-01-30 17:59:12,693 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:12,715 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:21,810 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:21,821 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:22,364 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:22,374 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:22,510 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:22,520 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:22,663 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:22,672 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:22,809 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:22,817 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:22,926 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:22,934 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:23,079 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:23,087 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:23,295 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:23,303 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:23,428 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:23,436 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:23,567 views 115049 132196406920896 surfing the post_list view
+INFO 2024-01-30 17:59:23,575 basehttp 115049 132196406920896 "GET /blog/ HTTP/1.1" 200 4166
+INFO 2024-01-30 17:59:36,962 autoreload 115049 132196543842112 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 17:59:37,262 autoreload 115248 130111059687232 Watching for file changes with StatReloader
+WARNING 2024-01-30 17:59:39,120 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:39,140 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:39,566 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:39,575 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:39,752 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:39,761 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:39,906 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:39,913 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:40,052 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:40,061 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:40,212 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:40,221 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:40,365 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:40,374 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:40,532 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:40,540 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:40,674 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:40,682 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+WARNING 2024-01-30 17:59:40,844 views 115248 130110996874944 surfing the post_list view
+INFO 2024-01-30 17:59:40,853 basehttp 115248 130110996874944 "GET /blog/ HTTP/1.1" 200 4166
+INFO 2024-01-30 18:01:02,827 autoreload 115248 130111059687232 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 18:01:03,074 autoreload 115524 131923733456704 Watching for file changes with StatReloader
+INFO 2024-01-30 18:01:36,339 autoreload 115524 131923733456704 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 18:01:36,638 autoreload 115857 133970169694016 Watching for file changes with StatReloader

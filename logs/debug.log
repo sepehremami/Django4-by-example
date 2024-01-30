@@ -1,0 +1,12 @@
+INFO 2024-01-30 12:26:01,645 autoreload 76694 123167245207360 Watching for file changes with StatReloader
+INFO 2024-01-30 12:26:03,763 autoreload 76694 123167245207360 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 12:26:04,020 autoreload 76699 124044609144640 Watching for file changes with StatReloader
+INFO 2024-01-30 12:26:06,128 autoreload 76699 124044609144640 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.
+INFO 2024-01-30 12:26:06,357 autoreload 76713 133360675096384 Watching for file changes with StatReloader
+WARNING 2024-01-30 12:26:31,590 views 76713 133360611493568 we are in like what are they doing here? detail view
+INFO 2024-01-30 12:26:31,607 basehttp 76713 133360611493568 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 12:26:32,733 views 76713 133360611493568 we are in like what are they doing here? detail view
+INFO 2024-01-30 12:26:32,740 basehttp 76713 133360611493568 "GET /blog/2023/6/18/like-what-are-they-doing-here/ HTTP/1.1" 200 3213
+WARNING 2024-01-30 12:26:33,107 views 76713 133360611493568 we are in django is great! detail view
+INFO 2024-01-30 12:26:33,112 basehttp 76713 133360611493568 "GET /blog/2023/6/17/django-is-great/ HTTP/1.1" 200 2844
+INFO 2024-01-30 12:26:41,464 autoreload 76713 133360675096384 /home/nolimax/github-proj/Django4-by-example/config/settings.py changed, reloading.

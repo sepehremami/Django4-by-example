@@ -8,7 +8,11 @@ from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from .forms import EmailPostForm, CommentForm, SearchForm
 from .models import Post, Comment
+import logging
 
+
+logger = logging.getLogger('blog')
+debug_logger = logging.getLogger('blog_debug')
 
 class PostListView(ListView):
     """
@@ -21,9 +25,12 @@ class PostListView(ListView):
     template_name = 'blog/post/list.html'
 
 
+
 def post_list(request, tag_slug=None):
     posts_list = Post.published.all()
+    debug_logger.debug(f'{post_list}')
     tag = None
+    logger.warn(f'surfing the post_list view')
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         posts_list = posts_list.filter(tags__in=[tag])
@@ -53,7 +60,7 @@ def post_detail(request, year, month, day, post):
     # print(similar_posts.query)
     similar_posts = similar_posts.annotate(same_tags=Count('tags')).order_by('-same_tags', '-publish')[:4]
     # print(similar_posts.query)
-
+    logger.warn(f'we are in {post} detail view')
     return render(request, "blog/post/detail.html", {"post": post,
                                                      'comments': comments,
                                                      'form': form,
@@ -73,6 +80,7 @@ def post_share(request, post_id):
             message = f"Read '{post.title}' at {post_url}\n\n \
                         {cd['name']}\'s comments: {cd['comments']}"
             send_mail(subject, message, 'sepehr7890@gmail.com', [cd['to']])
+            logger.info('sent email to %s', cd['to'])
             sent = True
     else:
         form = EmailPostForm()
@@ -96,6 +104,7 @@ def post_search(request):
     form = SearchForm()
     query = None
     results = []
+    logger.info(f'{request.user} looked for the word {query}')
 
     if 'query' in request.GET:
         form = SearchForm(request.GET)
@@ -106,4 +115,6 @@ def post_search(request):
                 ) \
                 .filter(similarity__gt=0.1).order_by('-similarity') # select to_tsvector('title', 'body') @@ to_tsquery(query);
     return render(request,'blog/post/search.html', {'form':form, 'query':query, 'results':results})
+
+
 

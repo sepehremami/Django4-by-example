@@ -147,3 +147,78 @@ EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 EMAIL_PORT = os.environ.get("EMAIL_PORT")
 EMAIL_USE_TLS = os.environ.get("EMAIL_USE_TLS")
+
+
+LOGGING = {
+    "version": 1,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'style': '{',
+        }
+    }, 
+    "handlers":{ 
+        "loging": { # this name can be anything
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": "./logs/debug2.log", # be sure to make dir ./logs
+            'formatter': 'verbose',
+        }, 
+        "blog_handler": { # this name can be anything
+            "level": "INFO",
+            "class": "logging.StreamHandler",
+            'formatter': 'verbose',
+        }
+    },
+     'loggers':{
+        'django':{
+            "handlers":["loging"],
+            "level":"INFO",
+            "propagate":True,
+        },
+        "blog":{
+            "handlers":["loging"],
+            "level":"INFO",
+            "propagate":True,
+        }, 
+        "blog_debug":
+        {
+            "handlers":["blog_handler"],
+            "level":"DEBUG",
+            "propagate":True,
+        }, 
+        
+    },
+}
+
+# LOGGING = {
+#     "version": 1,
+#     "disable_existing_loggers": False,  # Prevent disabling built-in loggers
+#     "formatters": {
+#         "verbose": {
+#             "format": "{levelname} {asctime} {module} {process:d} {thread:d} {message}",
+#             "style": "{",
+#         }
+#     },
+#     "handlers": {
+#         "logging": {  # Correct handler name
+#             "level": "INFO",
+#             "class": "logging.FileHandler",
+#             "filename": "./logs/debug.log",
+#             "formatter": "verbose",
+#         },
+#     },
+#     "loggers": {
+#         "django": {  # Configure the Django logger
+#             "handlers": ["logging"],
+#             "level": "INFO",
+#             "propagate": True,
+#         },
+#         # Add a logger for your app's module
+#         "blog": {
+#             "handlers": ["logging"],
+#             "level": "INFO",
+#             "propagate": True,
+#         },
+#     },
+# }
